@@ -1,0 +1,9 @@
+name: probe
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  hi:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hello-actions
